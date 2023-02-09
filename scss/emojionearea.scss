@@ -221,6 +221,10 @@
             width: 100%;
             position: absolute;
             z-index: $z-index + 5;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
         }
 
         .#{$css-prefix}-filters {
@@ -229,7 +233,6 @@
             height: $filters-height;
 
             .#{$css-prefix}-filter {
-                display: block;
                 float: left;
                 height: $filters-height;
                 width: 32px;

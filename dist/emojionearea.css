@@ -249,13 +249,16 @@
   .emojionearea .emojionearea-picker .emojionearea-filters {
     width: 100%;
     position: absolute;
-    z-index: 95; }
+    z-index: 95;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center; }
   .emojionearea .emojionearea-picker .emojionearea-filters {
     background: #F5F7F9;
     padding: 0 0 0 7px;
     height: 40px; }
     .emojionearea .emojionearea-picker .emojionearea-filters .emojionearea-filter {
-      display: block;
       float: left;
       height: 40px;
       width: 32px;
